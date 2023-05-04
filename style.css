@@ -1,0 +1,54 @@
+#one{
+    
+    animation-name: tooAndFro1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#two{
+    
+    animation-name: tooAndFro2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+#four{
+    
+    animation-name: tooAndFro4;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+
+#eight{
+    
+    animation-name: tooAndFro8;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes tooAndFro1 {
+    0% { opacity: 0; }
+    100% {opacity: 1; }
+}
+
+@keyframes tooAndFro2 {
+    25% { opacity: 0; }
+    100% {opacity: 1; }
+}
+
+@keyframes tooAndFro4 {
+    50% { opacity: 0; }
+    100% {opacity: 1; }
+}
+
+@keyframes tooAndFro8 {
+    75% { opacity: 0; }
+    100% {opacity: 1; }
+}
+
+.svgInLine {
+    display: grid;
+}
