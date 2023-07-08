@@ -1,5 +1,13 @@
+@font-face {
+    font-family: 'LeagueSpartan';
+    src: url("./fonts/LeagueSpartan-Regular.ttf");
+}
+
+html {
+    font-family: 'LeagueSpartan';
+}
+
 #one{
-    
     animation-name: tooAndFro1;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -49,6 +57,19 @@
     100% {opacity: 1; }
 }
 
+.mobile {
+    display: none;
+}
+
 .svgInLine {
     display: grid;
+}
+
+@media only screen and (max-width: 400px) {
+    .mobile{
+        display: flex;
+    }
+    .desktop {
+        display: none;
+    }
 }
